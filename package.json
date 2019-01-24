@@ -5,7 +5,9 @@
   "main": "dist/tslLog.js",
   "scripts": {
     "build": "tsc --module commonjs",
+    "build-and-test": "yarn build && yarn test",
     "lint": "tslint  --project tsconfig.json -t codeFrame",
+    "pub": "yarn build-and-test && yarn publish",
     "test": "yarn lint"
   },
   "repository": {
