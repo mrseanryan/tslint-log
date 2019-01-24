@@ -1,0 +1,30 @@
+{
+  "name": "tslint-log",
+  "version": "1.0.0",
+  "description": "Custom tslint rule that logs out all visited source code files. Use for diagnosing tslint configuration.",
+  "main": "dist/tslLog.js",
+  "scripts": {
+    "build": "tsc --module commonjs",
+    "lint": "tslint  --project tsconfig.json -t codeFrame",
+    "test": "yarn lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrseanryan/tslint-log.git"
+  },
+  "keywords": [
+    "tslint",
+    "log"
+  ],
+  "author": "Sean Ryan <mr.sean.ryan(at)gmail.com> (at)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrseanryan/tslint-log/issues"
+  },
+  "homepage": "https://github.com/mrseanryan/tslint-log#readme",
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "tslint": "^5.12.1",
+    "typescript": "^3.2.4"
+  }
+}

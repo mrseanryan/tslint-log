@@ -1,0 +1,6 @@
+{
+    "rulesDirectory": "./dist/lib",
+    "rules": {
+        "tslLog": true
+    }
+}
