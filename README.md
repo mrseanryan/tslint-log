@@ -60,7 +60,6 @@ Normally this would be like:
 | site                 | URL                                               |
 | -------------------- | ------------------------------------------------- |
 | source code (github) | https://github.com/mrseanryan/tslint-log |
-| github page          | https://mrseanryan.github.io/tslint-log/ |
 | npm                  | https://www.npmjs.com/package/tslint-log |
 
 ## developing code in _this_ repository
