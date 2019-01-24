@@ -1,6 +1,6 @@
 {
   "name": "tslint-log",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Custom tslint rule that logs out all visited source code files. Use for diagnosing tslint configuration.",
   "main": "dist/tslLog.js",
   "scripts": {
